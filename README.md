@@ -1,16 +1,60 @@
-# React + Vite
+# 🌌 Nebula Vault - Your Live Multiverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Introduction
 
-Currently, two official plugins are available:
+A modern, responsive **React + Vite dashboard** built using **React.js**, designed to manage three parallel universes: **Artifacts**, **Creatures**, and **Logs**. This project focuses on creating a seamless user experience with live Firebase Realtime Database synchronization, modal-based item addition, and a slightly sci-fi dashboard UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Project Type
 
-## React Compiler
+**Frontend**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Deployed App
 
-## Expanding the ESLint configuration
+* **Frontend:** [https://chimera-ass1-m3khoc0zz-bishtgaurav0s-projects.vercel.app/](https://chimera-ass1-m3khoc0zz-bishtgaurav0s-projects.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Directory Structure
+
+nebula-vault/
+├─ public/
+├─ src/
+│  ├─ components/
+│  ├─ assets/
+│  ├─ App.jsx
+│  └─ index.jsx
+├─ package.json
+└─ README.md
+
+## 📹 Video Walkthrough of the Project
+
+![Image](https://github.com/user-attachments/assets/a6f0f143-a903-42ce-9bb6-a18cdfd87ae0)
+
+## ✨ Features
+
+* 🧾 Universe tabs for Artifacts, Creatures, and Logs
+* 🛒 Add item modal (name only)
+* 🔄 Realtime updates using Firebase Realtime Database
+* ⏸️ Temporal Freeze to pause live updates
+* 🔍 Pagination with scroll & page persistence
+* 🖥️ Responsive design with sci-fi theme
+* 🌐 Hosted on Vercel
+
+## 📐 Design Decisions or Assumptions
+
+* Used Firebase Realtime Database as backend
+* All items only require a name field
+* Freeze mode buffers live updates until unpaused
+* Designed for desktop-first, then responsive for mobile
+* Used functional components and React hooks (useState, useEffect, useRef)
+
+## ⚙️ Installation & Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/bishtgaurav0/CHIMERA--ass1.git
+cd CHIMERA--ass1
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view the dashboard locally.
