@@ -24,9 +24,6 @@ nebula-vault/
 ├─ package.json
 └─ README.md
 
-## 📹 Video Walkthrough of the Project
-
-![Image](https://github.com/user-attachments/assets/a6f0f143-a903-42ce-9bb6-a18cdfd87ae0)
 
 ## ✨ Features
 
