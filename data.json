@@ -1,0 +1,82 @@
+{
+  "universes": {
+    "artifacts": {
+      "meta": {
+        "totalCount": 6
+      },
+      "items": {
+        "artifact_001": {
+          "id": "artifact_001",
+          "name": "Chrono Crystal",
+          "rarity": "legendary",
+          "powerLevel": 95,
+          "createdAt": 1700000000000
+        },
+        "artifact_002": {
+          "id": "artifact_002",
+          "name": "Void Compass",
+          "rarity": "epic",
+          "powerLevel": 78,
+          "createdAt": 1700000001000
+        },
+        "artifact_003": {
+          "id": "artifact_003",
+          "name": "Nebula Lens",
+          "rarity": "rare",
+          "powerLevel": 62,
+          "createdAt": 1700000002000
+        }
+      }
+    },
+
+    "creatures": {
+      "meta": {
+        "totalCount": 6
+      },
+      "items": {
+        "creature_001": {
+          "id": "creature_001",
+          "name": "Aether Drake",
+          "species": "dragon",
+          "threatLevel": 9,
+          "originUniverse": "Alpha-9",
+          "createdAt": 1700000010000
+        },
+        "creature_002": {
+          "id": "creature_002",
+          "name": "Void Wisp",
+          "species": "ethereal",
+          "threatLevel": 4,
+          "originUniverse": "Null-Zone",
+          "createdAt": 1700000011000
+        }
+      }
+    },
+
+    "logs": {
+      "meta": {
+        "totalCount": 6
+      },
+      "items": {
+        "log_001": {
+          "id": "log_001",
+          "event": "Artifact synchronized across timelines",
+          "severity": "info",
+          "timestamp": 1700000020000
+        },
+        "log_002": {
+          "id": "log_002",
+          "event": "Creature breach detected",
+          "severity": "warning",
+          "timestamp": 1700000021000
+        }
+      }
+    }
+  },
+
+  "activityPulse": {
+    "artifacts": false,
+    "creatures": false,
+    "logs": false
+  }
+}
